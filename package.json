@@ -1,0 +1,20 @@
+{
+  "name": "rest-api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "dev": "nodemon index.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^5.4.19",
+    "mongoose-timestamp": "^0.6.0",
+    "nodemon": "^1.18.10",
+    "restify": "^8.1.0",
+    "restify-errors": "^7.0.0"
+  }
+}
